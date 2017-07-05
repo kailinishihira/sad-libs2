@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">A name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">Another name</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animal">An animal</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun1">A noun</label>
+            <input id="noun1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun2">Another noun</label>
+            <input id="noun2" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A fantastical adventure</h1>
+        <p>
+          In the year 2117, the only two people in the world will be <span class="person1"></span> and <span class="person2"></span>. They will live in a <span class="noun1"></span> and have a <span class="animal"></span> for a pet. One day they will run out of <span class="noun2"></span> and die. The end.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
